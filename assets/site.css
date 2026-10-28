@@ -294,3 +294,22 @@ form{display:grid;gap:16px}
 .cmp-more[open] summary::after{content:" ↑"}
 .cmp-more .cmp thead{display:none}
 .hero h1 span{text-wrap:balance}
+/* credential card v2: plain-language explainer + check + CTA */
+.cred-card{gap:14px}
+.cred-card h2{font-size:20px;font-family:var(--f-head)}
+.cred-why{font-size:14px;color:var(--text);line-height:1.65}
+.cred-item{display:grid;gap:6px;border-top:1px solid var(--line);padding-top:14px}
+.cred-item h3{font-size:15px;font-family:var(--f-body);color:var(--ink)}
+.cred-item p{font-size:13px;color:var(--note);line-height:1.55}
+.cred-card .marns{gap:8px;margin-top:4px}
+.cred-card .marn{padding:8px 12px}
+.cred-card .marn b{font-size:18px}
+.qeac-list{list-style:none;padding:0;display:grid;gap:4px;margin-top:2px}
+.qeac-list li{display:flex;justify-content:space-between;gap:12px;background:var(--fog);border:1px solid var(--line);border-radius:var(--r);padding:8px 12px;font-size:14px}
+.qeac-list b{color:var(--ink)}
+.qeac-list span{color:var(--note);font-variant-numeric:tabular-nums}
+.cred-how{font-size:13px;color:var(--note);background:var(--sea);border-radius:var(--r);padding:10px 12px;line-height:1.55}
+.btn-block{width:100%;min-height:44px;font-size:15px}
+.cred-next{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px}
+.cred-next span{font-size:14px;color:var(--ink);font-weight:600}
+.cred-next .btn{min-height:42px;font-size:15px}
